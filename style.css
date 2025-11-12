@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: default;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+img{
+   height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.top{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+.left h1{
+    font-size: 2.5rem;
+    color: #3d0a4e;
+}
+.left p{
+    font-size: 1.2rem;
+    color: #6b6b6b;
+}
+
+.colton-Irene{
+    display: flex;
+    align-items: center;
+    color: #fafafa;
+    gap: 25px;
+    
+    
+
+}
+.box1{
+    background-color: #3d0a4e;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.box2{
+    background-color: #3d0a4e;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+span{
+    margin-bottom: 20px;
+    color:  #c9a2db;
+    opacity: 0.8;
+}
+
+.box3{
+    background-color: #3d0a4e;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fafafa;
+}
+.info{
+    gap: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.colt{
+    display: flex;
+    flex-direction: column;
+}
+
+.stars2{
+    display: flex;
+    margin-right: 30px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #f5f1f7;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.et1{
+    margin-left: 20%;
+}
+.et2{
+    margin-left: 10%;
+}
+.et3{
+    margin-left: 0;
+}
+
+.rating{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+    
+}
+
+.stars1:hover,.stars2:hover,.stars3:hover{
+    cursor: pointer;
+  background-color: #dbdada;
+    font-size: 1.05rem;
+}
+.box1:hover,.box2:hover,.box3:hover{
+   cursor: pointer;
+   background-color: #8f33ad;
+}
+
+@media(max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 96%;
+        max-width: 668px;
+        margin: 10px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .rating{
+        display: flex;
+        width: 98%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+       
+    }
+    .colton-Irene{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;  
+
+
+   }
+   .box3{
+    display: flex;
+        flex-direction: column; 
+        width: 80%;
+        margin: 0 auto;  
+   }
+.et1{
+    margin-left: auto;
+}
+.et2{
+    margin-left: auto;
+}
+.et3{
+    margin-left: auto;
+}
+.stars2{
+    width: 100%;
+   font-size: 13px;
+
+}
+.left{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
